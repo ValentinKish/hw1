@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(21, 97, 84);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 500px;
+    height: 100%}
+
+.menu {
+ 
+    width: 100%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+p {font-size: 16px;}
+
+h1 {
+    font-size: 48px;
+}
+.zagolovok {
+    color: aliceblue;
+    min-width: 1000%;
+    max-height: 185px;
+    padding-top: 2%;
+    width: 100%;
+    padding-left: 2%;
+}
+
+img {
+    width: 100%;
+}
+
+.foto {
+    padding-top: 3%;
+    width: 7%;
+    padding-left: 2%;padding-left: 2%;
+}
+
+.autor, .coment, .published, .updated {
+    padding-top: 5%;
+    padding-left: 1.5%;
+}
+
+.text-grey {
+    color: gray;
+}
+
+.text-whait{
+    color: aliceblue;
+}
+
+@media (max-width:600px) {
+
+    .menu{
+        padding-top: 7%;
+        padding-left: 5%;
+    }
+    
+    .zagolovok {
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+    .foto{
+        padding-left: 5%;
+        padding-top: 7%;
+        width: 20%;
+        order: 1;
+    }
+
+   .updated {
+    width: 35%;
+    height: 5%;
+    padding-top: 7%;
+    padding-left: 10%;
+    order:2;
+   }
+   .published {
+    padding-top: 7%;
+    width: 35%;
+    padding-left: 10%;
+    order:5;
+   }
+   .coment {
+    position: absolute;
+    left: 10%;
+    top: 85%;
+    padding-left: 20%;
+    order: 4;
+   }
+   .autor {
+    position: absolute;
+    left: 55%;
+    top: 85%;
+    height: 5%;
+    padding-left: 10%;
+    order: 3;
+   }
+
+   h1 {
+    font-size: 42px
+   }
+
+   .text-grey,.text-whait {
+    font-size: 20px;
+   }
+
+}
